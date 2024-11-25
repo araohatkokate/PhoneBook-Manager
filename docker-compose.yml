@@ -1,0 +1,10 @@
+version: '3'
+services:
+  phonebook:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - ACCESS_TOKEN_EXPIRE_MINUTES=120
