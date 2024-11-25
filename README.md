@@ -30,6 +30,9 @@ cd PhoneBook_Starter
 ```
 
 ### 2. Build and Run Using Docker Compose
+``` bash
+docker-compose up --build
+```
 
 ### 3. Run Unit Tests:
 The application will start and can be accessed at:
